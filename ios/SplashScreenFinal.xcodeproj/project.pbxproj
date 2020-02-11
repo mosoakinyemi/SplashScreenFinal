@@ -10,6 +10,13 @@
 		00E356F31AD99517003FC87E /* SplashScreenFinalTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* SplashScreenFinalTests.m */; };
 		0105E16376B2B19FEC1E5AFE /* Pods_SplashScreenFinal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 080E521B711CB6A991C1BEEF /* Pods_SplashScreenFinal.framework */; };
 		04BF9B3F23F2B3E300A2CC59 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04BF9B3E23F2B3E300A2CC59 /* LaunchScreen.storyboard */; };
+		04BF9B4723F2C0D400A2CC59 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BF9B4223F2C0D300A2CC59 /* ViewController.swift */; };
+		04BF9B4823F2C0D400A2CC59 /* bottom_bands_final.gif in Resources */ = {isa = PBXBuildFile; fileRef = 04BF9B4323F2C0D300A2CC59 /* bottom_bands_final.gif */; };
+		04BF9B4923F2C0D400A2CC59 /* LogoAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BF9B4423F2C0D300A2CC59 /* LogoAnimationView.swift */; };
+		04BF9B4A23F2C0D400A2CC59 /* UIView+Constraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BF9B4523F2C0D300A2CC59 /* UIView+Constraints.swift */; };
+		04BF9B4B23F2C0D400A2CC59 /* top_bands_final.gif in Resources */ = {isa = PBXBuildFile; fileRef = 04BF9B4623F2C0D300A2CC59 /* top_bands_final.gif */; };
+		04BF9B5723F2C9B100A2CC59 /* AnimationView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04BF9B5623F2C9B100A2CC59 /* AnimationView.storyboard */; };
+		04BF9B5923F2CC5400A2CC59 /* AnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BF9B5823F2CC5400A2CC59 /* AnimationViewController.swift */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
@@ -45,6 +52,13 @@
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* SplashScreenFinalTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SplashScreenFinalTests.m; sourceTree = "<group>"; };
 		04BF9B3E23F2B3E300A2CC59 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = SplashScreenFinal/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04BF9B4223F2C0D300A2CC59 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = SplashScreenFinal/ViewController.swift; sourceTree = "<group>"; };
+		04BF9B4323F2C0D300A2CC59 /* bottom_bands_final.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = bottom_bands_final.gif; path = SplashScreenFinal/bottom_bands_final.gif; sourceTree = "<group>"; };
+		04BF9B4423F2C0D300A2CC59 /* LogoAnimationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LogoAnimationView.swift; path = SplashScreenFinal/LogoAnimationView.swift; sourceTree = "<group>"; };
+		04BF9B4523F2C0D300A2CC59 /* UIView+Constraints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIView+Constraints.swift"; path = "SplashScreenFinal/UIView+Constraints.swift"; sourceTree = "<group>"; };
+		04BF9B4623F2C0D300A2CC59 /* top_bands_final.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = top_bands_final.gif; path = SplashScreenFinal/top_bands_final.gif; sourceTree = "<group>"; };
+		04BF9B5623F2C9B100A2CC59 /* AnimationView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = AnimationView.storyboard; path = SplashScreenFinal/AnimationView.storyboard; sourceTree = "<group>"; };
+		04BF9B5823F2CC5400A2CC59 /* AnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AnimationViewController.swift; path = SplashScreenFinal/AnimationViewController.swift; sourceTree = "<group>"; };
 		080E521B711CB6A991C1BEEF /* Pods_SplashScreenFinal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SplashScreenFinal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07F961A680F5B00A75B9A /* SplashScreenFinal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SplashScreenFinal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = SplashScreenFinal/AppDelegate.h; sourceTree = "<group>"; };
@@ -125,6 +139,11 @@
 		13B07FAE1A68108700A75B9A /* SplashScreenFinal */ = {
 			isa = PBXGroup;
 			children = (
+				04BF9B4323F2C0D300A2CC59 /* bottom_bands_final.gif */,
+				04BF9B4423F2C0D300A2CC59 /* LogoAnimationView.swift */,
+				04BF9B4623F2C0D300A2CC59 /* top_bands_final.gif */,
+				04BF9B4523F2C0D300A2CC59 /* UIView+Constraints.swift */,
+				04BF9B4223F2C0D300A2CC59 /* ViewController.swift */,
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
@@ -132,6 +151,8 @@
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				13B07FB71A68108700A75B9A /* main.m */,
 				04BF9B3E23F2B3E300A2CC59 /* LaunchScreen.storyboard */,
+				04BF9B5623F2C9B100A2CC59 /* AnimationView.storyboard */,
+				04BF9B5823F2CC5400A2CC59 /* AnimationViewController.swift */,
 			);
 			name = SplashScreenFinal;
 			sourceTree = "<group>";
@@ -292,6 +313,9 @@
 						CreatedOnToolsVersion = 6.2;
 						TestTargetID = 13B07F861A680F5B00A75B9A;
 					};
+					13B07F861A680F5B00A75B9A = {
+						LastSwiftMigration = 1120;
+					};
 					2D02E47A1E0B4A5D006451C7 = {
 						CreatedOnToolsVersion = 8.2.1;
 						ProvisioningStyle = Automatic;
@@ -337,7 +361,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04BF9B4823F2C0D400A2CC59 /* bottom_bands_final.gif in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				04BF9B4B23F2C0D400A2CC59 /* top_bands_final.gif in Resources */,
+				04BF9B5723F2C9B100A2CC59 /* AnimationView.storyboard in Resources */,
 				04BF9B3F23F2B3E300A2CC59 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -591,7 +618,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04BF9B4723F2C0D400A2CC59 /* ViewController.swift in Sources */,
 				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
+				04BF9B4A23F2C0D400A2CC59 /* UIView+Constraints.swift in Sources */,
+				04BF9B5923F2CC5400A2CC59 /* AnimationViewController.swift in Sources */,
+				04BF9B4923F2C0D400A2CC59 /* LogoAnimationView.swift in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -633,6 +664,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 67E449E0E84ED87CADEA0738 /* Pods-SplashScreenFinalTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -656,6 +688,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CF6C81242B5E49F281E0AEC0 /* Pods-SplashScreenFinalTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
 				INFOPLIST_FILE = SplashScreenFinalTests/Info.plist;
@@ -677,6 +710,7 @@
 			baseConfigurationReference = 51CEB046C43AC50174F7E11F /* Pods-SplashScreenFinal.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
 				INFOPLIST_FILE = SplashScreenFinal/Info.plist;
@@ -688,6 +722,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = SplashScreenFinal;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
@@ -697,6 +733,7 @@
 			baseConfigurationReference = 7F0FA34B021867F29BABDC15 /* Pods-SplashScreenFinal.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				INFOPLIST_FILE = SplashScreenFinal/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -707,6 +744,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = SplashScreenFinal;
+				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;

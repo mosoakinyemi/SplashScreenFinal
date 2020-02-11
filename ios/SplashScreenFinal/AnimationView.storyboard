@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Animation View Controller-->
+        <scene sceneID="9hh-vU-4xO">
+            <objects>
+                <viewController id="PsP-wc-BVx" customClass="AnimationViewController" customModule="SplashScreenFinal" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="OZU-7L-TUi">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="top_band_frame1" translatesAutoresizingMaskIntoConstraints="NO" id="oHK-uq-aoE">
+                                <rect key="frame" x="0.0" y="31" width="138" height="312"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="312" id="TDJ-va-ljo"/>
+                                    <constraint firstAttribute="width" constant="138" id="lyT-Oa-Nhy"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bottom_band_frame1" translatesAutoresizingMaskIntoConstraints="NO" id="GUG-In-rOL">
+                                <rect key="frame" x="280" y="577" width="134" height="319"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.1215505227" green="0.1215790585" blue="0.12154868990000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="GUG-In-rOL" firstAttribute="leading" secondItem="Jw6-de-Ukf" secondAttribute="leading" constant="280" id="3js-LH-pfP"/>
+                            <constraint firstAttribute="bottom" secondItem="GUG-In-rOL" secondAttribute="bottom" id="HcI-yi-Zqq"/>
+                            <constraint firstAttribute="trailing" secondItem="GUG-In-rOL" secondAttribute="trailing" id="dHU-aR-D7d"/>
+                            <constraint firstItem="oHK-uq-aoE" firstAttribute="leading" secondItem="OZU-7L-TUi" secondAttribute="leading" id="lgI-Fv-S59"/>
+                            <constraint firstItem="Jw6-de-Ukf" firstAttribute="bottom" secondItem="oHK-uq-aoE" secondAttribute="bottom" constant="519" id="rmO-5b-mU9"/>
+                            <constraint firstItem="GUG-In-rOL" firstAttribute="top" secondItem="Jw6-de-Ukf" secondAttribute="top" constant="533" id="vcx-FX-JTj"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Jw6-de-Ukf"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uaM-bp-645" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="410"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="bottom_band_frame1" width="386" height="928"/>
+        <image name="top_band_frame1" width="518" height="1146"/>
+    </resources>
+</document>

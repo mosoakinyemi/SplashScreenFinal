@@ -12,7 +12,7 @@ import SwiftyGif
 class LogoAnimationView: UIView {
     
     let logoGifImageView: UIImageView = {
-        guard let gifImage = try? UIImage(gifName: "logo.gif") else {
+        guard let gifImage = try? UIImage(gifName: "top_bands.gif") else {
             return UIImageView()
         }
         return UIImageView(gifImage: gifImage, loopCount: 1)
@@ -29,7 +29,7 @@ class LogoAnimationView: UIView {
     }
     
     private func commonInit() {
-        backgroundColor = UIColor(white: 246.0 / 255.0, alpha: 1)
+//        backgroundColor = UIColor(white: 246.0 / 255.0, alpha: 1)
         addSubview(logoGifImageView)
         logoGifImageView.translatesAutoresizingMaskIntoConstraints = false
         logoGifImageView.centerXAnchor.constraint(equalTo: centerXAnchor).isActive = true
