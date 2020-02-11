@@ -217,6 +217,7 @@ PODS:
     - React-cxxreact (= 0.61.5)
     - React-jsi (= 0.61.5)
     - ReactCommon/jscallinvoker (= 0.61.5)
+  - SwiftyGif (5.2.0)
   - Yoga (1.14.0)
 
 DEPENDENCIES:
@@ -247,11 +248,13 @@ DEPENDENCIES:
   - React-RCTVibration (from `../node_modules/react-native/Libraries/Vibration`)
   - ReactCommon/jscallinvoker (from `../node_modules/react-native/ReactCommon`)
   - ReactCommon/turbomodule/core (from `../node_modules/react-native/ReactCommon`)
+  - SwiftyGif
   - Yoga (from `../node_modules/react-native/ReactCommon/yoga`)
 
 SPEC REPOS:
   trunk:
     - boost-for-react-native
+    - SwiftyGif
 
 EXTERNAL SOURCES:
   DoubleConversion:
@@ -331,8 +334,9 @@ SPEC CHECKSUMS:
   React-RCTText: 9ccc88273e9a3aacff5094d2175a605efa854dbe
   React-RCTVibration: a49a1f42bf8f5acf1c3e297097517c6b3af377ad
   ReactCommon: 198c7c8d3591f975e5431bec1b0b3b581aa1c5dd
+  SwiftyGif: b85c6b33a9411859d9e1db998b6a8214aea942df
   Yoga: f2a7cd4280bfe2cca5a7aed98ba0eb3d1310f18b
 
-PODFILE CHECKSUM: d3a5ca7bcb8c336f40953f0cbd507b39c834bd97
+PODFILE CHECKSUM: a58b51f1c0160fc2b3180dc4d9e6ecae001840b0
 
 COCOAPODS: 1.8.4
