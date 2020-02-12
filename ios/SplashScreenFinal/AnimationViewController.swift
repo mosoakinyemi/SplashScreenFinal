@@ -7,16 +7,24 @@
 //
 
 import UIKit
+import SwiftyGif
 
 class AnimationViewController: UIViewController {
 
+  @IBOutlet var TopGif: UIImageView!
+  @IBOutlet var BottomBands: UIImageView!
+
+
     override func viewDidLoad() {
         super.viewDidLoad()
+      TopGif.loadGif(asset: "top_bands_final")
 
-        // Do any additional setup after loading the view.
     }
     
-
+//  override func viewDidAppear(_ animated: Bool) {
+//      super.viewDidAppear(animated)
+//      // You can also set it with an URL pointing to your gif
+//  }
     /*
     // MARK: - Navigation
 
