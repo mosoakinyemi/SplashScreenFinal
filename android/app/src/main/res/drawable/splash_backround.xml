@@ -3,24 +3,24 @@
     <item><color android:color="#1f1f1f"/></item>
     <item
         android:height="300dp"
-        android:width="124dp"
+        android:width="113.4375dp"
         android:gravity="left|top"
         >
         <bitmap
-            android:gravity="fill|bottom"
-            android:src="@drawable/top_bands"
+            android:gravity="fill"
+            android:src="@drawable/top_bands_frame1"
             />
     </item>
 
     <item
         android:height="300dp"
-        android:width="135.5dp"
+        android:width="128.07dp"
         android:gravity="right|bottom"
         >
         <bitmap
 
-            android:gravity="fill|left"
-            android:src="@drawable/bottom_bands"
+            android:gravity="fill"
+            android:src="@drawable/bottom_bands_frame1"
             />
     </item>
 
