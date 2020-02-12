@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item><color android:color="#1f1f1f"/></item>
+    <item
+        android:height="300dp"
+        android:width="124dp"
+        android:gravity="left|top"
+        >
+        <bitmap
+            android:gravity="fill|bottom"
+            android:src="@drawable/top_bands"
+            />
+    </item>
+
+    <item
+        android:height="300dp"
+        android:width="135.5dp"
+        android:gravity="right|bottom"
+        >
+        <bitmap
+
+            android:gravity="fill|left"
+            android:src="@drawable/bottom_bands"
+            />
+    </item>
+
+</layer-list>
