@@ -11,7 +11,7 @@
         <!--Animation View Controller-->
         <scene sceneID="9hh-vU-4xO">
             <objects>
-                <viewController id="PsP-wc-BVx" customClass="AnimationViewController" customModule="SplashScreenFinal" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="AnimationView" id="PsP-wc-BVx" customClass="AnimationViewController" customModule="SplashScreenFinal" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="OZU-7L-TUi">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -27,7 +27,7 @@
                                 </constraints>
                             </imageView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="GUG-In-rOL" firstAttribute="leading" secondItem="Jw6-de-Ukf" secondAttribute="leading" constant="280" id="3js-LH-pfP"/>
                             <constraint firstAttribute="bottom" secondItem="GUG-In-rOL" secondAttribute="bottom" id="HcI-yi-Zqq"/>

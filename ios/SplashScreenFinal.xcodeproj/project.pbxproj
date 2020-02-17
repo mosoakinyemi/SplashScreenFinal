@@ -55,6 +55,7 @@
 		04BF9B5623F2C9B100A2CC59 /* AnimationView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = AnimationView.storyboard; path = SplashScreenFinal/AnimationView.storyboard; sourceTree = "<group>"; };
 		04BF9B5823F2CC5400A2CC59 /* AnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AnimationViewController.swift; path = SplashScreenFinal/AnimationViewController.swift; sourceTree = "<group>"; };
 		04BF9B5C23F3DA1E00A2CC59 /* Swift+Gif.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Swift+Gif.swift"; sourceTree = "<group>"; };
+		04BF9B6223FA7EE700A2CC59 /* SplashScreenFinal-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SplashScreenFinal-Bridging-Header.h"; sourceTree = "<group>"; };
 		080E521B711CB6A991C1BEEF /* Pods_SplashScreenFinal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SplashScreenFinal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07F961A680F5B00A75B9A /* SplashScreenFinal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SplashScreenFinal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = SplashScreenFinal/AppDelegate.h; sourceTree = "<group>"; };
@@ -147,6 +148,7 @@
 				04BF9B5623F2C9B100A2CC59 /* AnimationView.storyboard */,
 				04BF9B5823F2CC5400A2CC59 /* AnimationViewController.swift */,
 				04BF9B5C23F3DA1E00A2CC59 /* Swift+Gif.swift */,
+				04BF9B6223FA7EE700A2CC59 /* SplashScreenFinal-Bridging-Header.h */,
 			);
 			name = SplashScreenFinal;
 			sourceTree = "<group>";
