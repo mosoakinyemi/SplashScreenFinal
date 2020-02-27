@@ -7,9 +7,9 @@
 //
 
 import UIKit
-import SwiftyGif
+//import SwiftyGif
 
-class AnimationViewController: UIViewController {
+@objc class AnimationViewController: UIViewController {
 
   @IBOutlet var TopGif: UIImageView!
   @IBOutlet var BottomBands: UIImageView!
