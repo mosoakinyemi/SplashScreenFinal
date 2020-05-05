@@ -35,7 +35,7 @@
   [self.window makeKeyAndVisible];
 //  self.window.rootViewController = rootViewController;
 
-  dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(20 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+  dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(8.5 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
     self.window.rootViewController = rootViewController;
   });
 

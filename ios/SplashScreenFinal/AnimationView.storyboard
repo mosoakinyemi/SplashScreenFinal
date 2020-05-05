@@ -17,16 +17,15 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4EQ-yd-eWX" userLabel="BottomAnimationView">
-                                <rect key="frame" x="186" y="446" width="228" height="450"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.086207754909992218" green="0.085967786610126495" blue="0.10254283994436264" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                            </view>
-                            <view contentMode="scaleToFill" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3bU-6H-f2h" userLabel="TopAnimationView">
-                                <rect key="frame" x="0.0" y="0.0" width="224" height="453"/>
+                                <rect key="frame" x="133" y="397" width="281" height="499"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.086207754910000003" green="0.085967786609999999" blue="0.1025428399" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tsF-2T-8xA" userLabel="TopAnimationView">
+                                <rect key="frame" x="20" y="0.0" width="256" height="424"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.086207754910000003" green="0.085967786609999999" blue="0.1025428399" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
                         </subviews>
                         <color key="backgroundColor" red="0.086207754910000003" green="0.085967786609999999" blue="0.1025428399" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -34,7 +33,7 @@
                     </view>
                     <connections>
                         <outlet property="BottomAnimationView" destination="4EQ-yd-eWX" id="nA0-9n-dPj"/>
-                        <outlet property="TopAnimation" destination="3bU-6H-f2h" id="L1l-RB-Qyk"/>
+                        <outlet property="TopAnimationView" destination="tsF-2T-8xA" id="Rup-sC-jSA"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uaM-bp-645" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

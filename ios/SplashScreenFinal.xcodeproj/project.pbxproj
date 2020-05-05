@@ -11,6 +11,8 @@
 		0105E16376B2B19FEC1E5AFE /* Pods_SplashScreenFinal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 080E521B711CB6A991C1BEEF /* Pods_SplashScreenFinal.framework */; };
 		0409487A2461A48C0011DAB6 /* upperleft band.json in Resources */ = {isa = PBXBuildFile; fileRef = 040948792461A48C0011DAB6 /* upperleft band.json */; };
 		0409487C2461ABA00011DAB6 /* br_band.json in Resources */ = {isa = PBXBuildFile; fileRef = 0409487B2461AB9F0011DAB6 /* br_band.json */; };
+		0409487E24621EE90011DAB6 /* top_bands.json in Resources */ = {isa = PBXBuildFile; fileRef = 0409487D24621EE90011DAB6 /* top_bands.json */; };
+		04094880246221020011DAB6 /* whole_splash.json in Resources */ = {isa = PBXBuildFile; fileRef = 0409487F246221020011DAB6 /* whole_splash.json */; };
 		048A805E2448896B00524587 /* splash.json in Resources */ = {isa = PBXBuildFile; fileRef = 048A805D2448896B00524587 /* splash.json */; };
 		04BF9B3F23F2B3E300A2CC59 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04BF9B3E23F2B3E300A2CC59 /* LaunchScreen.storyboard */; };
 		04BF9B4823F2C0D400A2CC59 /* bottom_bands_final.gif in Resources */ = {isa = PBXBuildFile; fileRef = 04BF9B4323F2C0D300A2CC59 /* bottom_bands_final.gif */; };
@@ -53,6 +55,8 @@
 		00E356F21AD99517003FC87E /* SplashScreenFinalTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SplashScreenFinalTests.m; sourceTree = "<group>"; };
 		040948792461A48C0011DAB6 /* upperleft band.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "upperleft band.json"; sourceTree = "<group>"; };
 		0409487B2461AB9F0011DAB6 /* br_band.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = br_band.json; sourceTree = "<group>"; };
+		0409487D24621EE90011DAB6 /* top_bands.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = top_bands.json; sourceTree = "<group>"; };
+		0409487F246221020011DAB6 /* whole_splash.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = whole_splash.json; sourceTree = "<group>"; };
 		048A805D2448896B00524587 /* splash.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = splash.json; sourceTree = "<group>"; };
 		04BF9B3E23F2B3E300A2CC59 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = SplashScreenFinal/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04BF9B4323F2C0D300A2CC59 /* bottom_bands_final.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = bottom_bands_final.gif; path = SplashScreenFinal/bottom_bands_final.gif; sourceTree = "<group>"; };
@@ -146,6 +150,8 @@
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
 				040948792461A48C0011DAB6 /* upperleft band.json */,
+				0409487D24621EE90011DAB6 /* top_bands.json */,
+				0409487F246221020011DAB6 /* whole_splash.json */,
 				0409487B2461AB9F0011DAB6 /* br_band.json */,
 				048A805D2448896B00524587 /* splash.json */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
@@ -363,7 +369,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0409487E24621EE90011DAB6 /* top_bands.json in Resources */,
 				048A805E2448896B00524587 /* splash.json in Resources */,
+				04094880246221020011DAB6 /* whole_splash.json in Resources */,
 				04BF9B4823F2C0D400A2CC59 /* bottom_bands_final.gif in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				0409487A2461A48C0011DAB6 /* upperleft band.json in Resources */,
