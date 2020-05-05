@@ -12,43 +12,34 @@
         <scene sceneID="9hh-vU-4xO">
             <objects>
                 <viewController storyboardIdentifier="myAnimationViewController" id="PsP-wc-BVx" customClass="AnimationViewController" customModule="SplashScreenFinal" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="OZU-7L-TUi">
+                    <view key="view" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="htd-Nj-YhX">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bottom_band_frame1" translatesAutoresizingMaskIntoConstraints="NO" id="GUG-In-rOL">
-                                <rect key="frame" x="280" y="577" width="134" height="319"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oHK-uq-aoE">
-                                <rect key="frame" x="0.0" y="35" width="138" height="312"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="312" id="TDJ-va-ljo"/>
-                                    <constraint firstAttribute="width" constant="138" id="lyT-Oa-Nhy"/>
-                                </constraints>
-                            </imageView>
+                            <view contentMode="scaleToFill" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4EQ-yd-eWX" userLabel="BottomAnimationView">
+                                <rect key="frame" x="186" y="446" width="228" height="450"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.086207754909992218" green="0.085967786610126495" blue="0.10254283994436264" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3bU-6H-f2h" userLabel="TopAnimationView">
+                                <rect key="frame" x="0.0" y="0.0" width="224" height="453"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.086207754910000003" green="0.085967786609999999" blue="0.1025428399" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <constraints>
-                            <constraint firstItem="GUG-In-rOL" firstAttribute="leading" secondItem="Jw6-de-Ukf" secondAttribute="leading" constant="280" id="3js-LH-pfP"/>
-                            <constraint firstAttribute="bottom" secondItem="GUG-In-rOL" secondAttribute="bottom" id="HcI-yi-Zqq"/>
-                            <constraint firstAttribute="trailing" secondItem="GUG-In-rOL" secondAttribute="trailing" id="dHU-aR-D7d"/>
-                            <constraint firstItem="oHK-uq-aoE" firstAttribute="leading" secondItem="OZU-7L-TUi" secondAttribute="leading" id="lgI-Fv-S59"/>
-                            <constraint firstItem="Jw6-de-Ukf" firstAttribute="bottom" secondItem="oHK-uq-aoE" secondAttribute="bottom" constant="519" id="rmO-5b-mU9"/>
-                            <constraint firstItem="GUG-In-rOL" firstAttribute="top" secondItem="Jw6-de-Ukf" secondAttribute="top" constant="533" id="vcx-FX-JTj"/>
-                        </constraints>
-                        <viewLayoutGuide key="safeArea" id="Jw6-de-Ukf"/>
+                        <color key="backgroundColor" red="0.086207754910000003" green="0.085967786609999999" blue="0.1025428399" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="Qum-DR-4ds"/>
                     </view>
                     <connections>
-                        <outlet property="BottomBands" destination="oHK-uq-aoE" id="Am5-Ba-Bj3"/>
-                        <outlet property="TopGif" destination="oHK-uq-aoE" id="2Na-b0-TJd"/>
+                        <outlet property="BottomAnimationView" destination="4EQ-yd-eWX" id="nA0-9n-dPj"/>
+                        <outlet property="TopAnimation" destination="3bU-6H-f2h" id="L1l-RB-Qyk"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uaM-bp-645" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="52" y="410"/>
+            <point key="canvasLocation" x="50.724637681159422" y="409.82142857142856"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="bottom_band_frame1" width="386" height="928"/>
-    </resources>
 </document>

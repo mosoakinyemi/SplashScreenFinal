@@ -9,12 +9,14 @@
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* SplashScreenFinalTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* SplashScreenFinalTests.m */; };
 		0105E16376B2B19FEC1E5AFE /* Pods_SplashScreenFinal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 080E521B711CB6A991C1BEEF /* Pods_SplashScreenFinal.framework */; };
+		0409487A2461A48C0011DAB6 /* upperleft band.json in Resources */ = {isa = PBXBuildFile; fileRef = 040948792461A48C0011DAB6 /* upperleft band.json */; };
+		0409487C2461ABA00011DAB6 /* br_band.json in Resources */ = {isa = PBXBuildFile; fileRef = 0409487B2461AB9F0011DAB6 /* br_band.json */; };
+		048A805E2448896B00524587 /* splash.json in Resources */ = {isa = PBXBuildFile; fileRef = 048A805D2448896B00524587 /* splash.json */; };
 		04BF9B3F23F2B3E300A2CC59 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04BF9B3E23F2B3E300A2CC59 /* LaunchScreen.storyboard */; };
 		04BF9B4823F2C0D400A2CC59 /* bottom_bands_final.gif in Resources */ = {isa = PBXBuildFile; fileRef = 04BF9B4323F2C0D300A2CC59 /* bottom_bands_final.gif */; };
 		04BF9B4B23F2C0D400A2CC59 /* top_bands_final.gif in Resources */ = {isa = PBXBuildFile; fileRef = 04BF9B4623F2C0D300A2CC59 /* top_bands_final.gif */; };
 		04BF9B5723F2C9B100A2CC59 /* AnimationView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04BF9B5623F2C9B100A2CC59 /* AnimationView.storyboard */; };
 		04BF9B5923F2CC5400A2CC59 /* AnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BF9B5823F2CC5400A2CC59 /* AnimationViewController.swift */; };
-		04BF9B5D23F3DA1E00A2CC59 /* Swift+Gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BF9B5C23F3DA1E00A2CC59 /* Swift+Gif.swift */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
@@ -49,12 +51,14 @@
 		00E356EE1AD99517003FC87E /* SplashScreenFinalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SplashScreenFinalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* SplashScreenFinalTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SplashScreenFinalTests.m; sourceTree = "<group>"; };
+		040948792461A48C0011DAB6 /* upperleft band.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "upperleft band.json"; sourceTree = "<group>"; };
+		0409487B2461AB9F0011DAB6 /* br_band.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = br_band.json; sourceTree = "<group>"; };
+		048A805D2448896B00524587 /* splash.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = splash.json; sourceTree = "<group>"; };
 		04BF9B3E23F2B3E300A2CC59 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = SplashScreenFinal/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04BF9B4323F2C0D300A2CC59 /* bottom_bands_final.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = bottom_bands_final.gif; path = SplashScreenFinal/bottom_bands_final.gif; sourceTree = "<group>"; };
 		04BF9B4623F2C0D300A2CC59 /* top_bands_final.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = top_bands_final.gif; path = SplashScreenFinal/top_bands_final.gif; sourceTree = "<group>"; };
 		04BF9B5623F2C9B100A2CC59 /* AnimationView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = AnimationView.storyboard; path = SplashScreenFinal/AnimationView.storyboard; sourceTree = "<group>"; };
 		04BF9B5823F2CC5400A2CC59 /* AnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AnimationViewController.swift; path = SplashScreenFinal/AnimationViewController.swift; sourceTree = "<group>"; };
-		04BF9B5C23F3DA1E00A2CC59 /* Swift+Gif.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Swift+Gif.swift"; sourceTree = "<group>"; };
 		04BF9B6223FA7EE700A2CC59 /* SplashScreenFinal-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SplashScreenFinal-Bridging-Header.h"; sourceTree = "<group>"; };
 		080E521B711CB6A991C1BEEF /* Pods_SplashScreenFinal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SplashScreenFinal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07F961A680F5B00A75B9A /* SplashScreenFinal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SplashScreenFinal.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -141,13 +145,15 @@
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
+				040948792461A48C0011DAB6 /* upperleft band.json */,
+				0409487B2461AB9F0011DAB6 /* br_band.json */,
+				048A805D2448896B00524587 /* splash.json */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				13B07FB71A68108700A75B9A /* main.m */,
 				04BF9B3E23F2B3E300A2CC59 /* LaunchScreen.storyboard */,
 				04BF9B5623F2C9B100A2CC59 /* AnimationView.storyboard */,
 				04BF9B5823F2CC5400A2CC59 /* AnimationViewController.swift */,
-				04BF9B5C23F3DA1E00A2CC59 /* Swift+Gif.swift */,
 				04BF9B6223FA7EE700A2CC59 /* SplashScreenFinal-Bridging-Header.h */,
 			);
 			name = SplashScreenFinal;
@@ -357,8 +363,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				048A805E2448896B00524587 /* splash.json in Resources */,
 				04BF9B4823F2C0D400A2CC59 /* bottom_bands_final.gif in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				0409487A2461A48C0011DAB6 /* upperleft band.json in Resources */,
+				0409487C2461ABA00011DAB6 /* br_band.json in Resources */,
 				04BF9B4B23F2C0D400A2CC59 /* top_bands_final.gif in Resources */,
 				04BF9B5723F2C9B100A2CC59 /* AnimationView.storyboard in Resources */,
 				04BF9B3F23F2B3E300A2CC59 /* LaunchScreen.storyboard in Resources */,
@@ -427,6 +436,7 @@
 				"${BUILT_PRODUCTS_DIR}/SwiftyGif/SwiftyGif.framework",
 				"${BUILT_PRODUCTS_DIR}/Yoga/yoga.framework",
 				"${BUILT_PRODUCTS_DIR}/glog/glog.framework",
+				"${BUILT_PRODUCTS_DIR}/lottie-ios/Lottie.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
@@ -453,6 +463,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyGif.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/yoga.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/glog.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Lottie.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -616,7 +627,6 @@
 			files = (
 				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
 				04BF9B5923F2CC5400A2CC59 /* AnimationViewController.swift in Sources */,
-				04BF9B5D23F3DA1E00A2CC59 /* Swift+Gif.swift in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

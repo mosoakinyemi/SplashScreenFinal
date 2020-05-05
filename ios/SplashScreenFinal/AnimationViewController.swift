@@ -1,38 +1,34 @@
-//
-//  AnimationViewController.swift
-//  SplashScreenFinal
-//
-//  Created by Moso's MacBook on 11/02/2020.
-//  Copyright © 2020 Facebook. All rights reserved.
-//
 
 import UIKit
-//import SwiftyGif
+import Lottie
 
 @objc class AnimationViewController: UIViewController {
 
-  @IBOutlet var TopGif: UIImageView!
-  @IBOutlet var BottomBands: UIImageView!
+  
 
-
-    override func viewDidLoad() {
+  @IBOutlet weak var TopAnimationView: UIView!
+  @IBOutlet weak var BottomAnimationView: UIView!
+  
+  override func viewDidLoad() {
         super.viewDidLoad()
-      TopGif.loadGif(asset: "top_bands_final")
+//    let topLottie =  AnimationView(name: "upperleft band")
+//    TopAnimationView.contentMode = .scaleAspectFill
+//    self.TopAnimationView.addSubview(topLottie)
+//    topLottie.frame = self.TopAnimationView.bounds
+//    topLottie.animationSpeed = 1
+//    topLottie.loopMode = .loop
+//    topLottie.play()
+    
+//    Bottom animation codes
+    let bottomLottie =  AnimationView(name: "br_band")
+    BottomAnimationView.contentMode = .scaleAspectFill
+    self.BottomAnimationView.addSubview(bottomLottie)
+    bottomLottie.frame = self.BottomAnimationView.bounds
+    bottomLottie.animationSpeed = 1
+    bottomLottie.loopMode = .loop
+    bottomLottie.play()
 
     }
     
-//  override func viewDidAppear(_ animated: Bool) {
-//      super.viewDidAppear(animated)
-//      // You can also set it with an URL pointing to your gif
-//  }
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }
