@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
-    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <device id="retina6_5" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
@@ -12,27 +12,21 @@
         <scene sceneID="9hh-vU-4xO">
             <objects>
                 <viewController storyboardIdentifier="myAnimationViewController" id="PsP-wc-BVx" customClass="AnimationViewController" customModule="SplashScreenFinal" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="htd-Nj-YhX">
+                    <view key="view" clipsSubviews="YES" contentMode="scaleAspectFill" insetsLayoutMarginsFromSafeArea="NO" id="htd-Nj-YhX">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4EQ-yd-eWX" userLabel="BottomAnimationView">
-                                <rect key="frame" x="133" y="397" width="281" height="499"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.086207754910000003" green="0.085967786609999999" blue="0.1025428399" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                            </view>
-                            <view contentMode="scaleToFill" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tsF-2T-8xA" userLabel="TopAnimationView">
-                                <rect key="frame" x="20" y="0.0" width="256" height="424"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <view clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tsF-2T-8xA" userLabel="TopAnimationView">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask"/>
                                 <color key="backgroundColor" red="0.086207754910000003" green="0.085967786609999999" blue="0.1025428399" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
                         </subviews>
                         <color key="backgroundColor" red="0.086207754910000003" green="0.085967786609999999" blue="0.1025428399" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <viewLayoutGuide key="safeArea" id="Qum-DR-4ds"/>
+                        <viewLayoutGuide key="safeArea" id="Jyx-ZU-ZJa"/>
                     </view>
                     <connections>
-                        <outlet property="BottomAnimationView" destination="4EQ-yd-eWX" id="nA0-9n-dPj"/>
+                        <outlet property="ContainerView" destination="htd-Nj-YhX" id="OJG-LO-1Sa"/>
                         <outlet property="TopAnimationView" destination="tsF-2T-8xA" id="Rup-sC-jSA"/>
                     </connections>
                 </viewController>
