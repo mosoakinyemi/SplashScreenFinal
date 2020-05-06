@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
-    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
@@ -12,21 +12,16 @@
             <objects>
                 <viewController storyboardIdentifier="myAnimationViewController" id="PsP-wc-BVx" customClass="AnimationViewController" customModule="SplashScreenFinal" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" clipsSubviews="YES" contentMode="scaleAspectFill" insetsLayoutMarginsFromSafeArea="NO" id="htd-Nj-YhX">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <view clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tsF-2T-8xA" userLabel="TopAnimationView">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            <view clipsSubviews="YES" contentMode="scaleAspectFill" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tsF-2T-8xA" userLabel="TopAnimationView">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <autoresizingMask key="autoresizingMask"/>
                                 <color key="backgroundColor" red="0.086207754910000003" green="0.085967786609999999" blue="0.1025428399" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
                         </subviews>
                         <color key="backgroundColor" red="0.086207754910000003" green="0.085967786609999999" blue="0.1025428399" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <constraints>
-                            <constraint firstItem="tsF-2T-8xA" firstAttribute="leading" secondItem="htd-Nj-YhX" secondAttribute="leading" id="8TR-7P-oaN"/>
-                            <constraint firstAttribute="bottom" secondItem="tsF-2T-8xA" secondAttribute="bottom" id="GYf-aC-LEB"/>
-                            <constraint firstAttribute="trailing" secondItem="tsF-2T-8xA" secondAttribute="trailing" id="PD4-9S-qma"/>
-                            <constraint firstItem="tsF-2T-8xA" firstAttribute="top" secondItem="htd-Nj-YhX" secondAttribute="top" id="b8X-IH-6oG"/>
-                        </constraints>
                     </view>
                     <connections>
                         <outlet property="ContainerView" destination="htd-Nj-YhX" id="OJG-LO-1Sa"/>
