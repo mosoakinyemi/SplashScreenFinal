@@ -20,6 +20,7 @@
 
   UIViewController *vc =[storyboard         instantiateViewControllerWithIdentifier:@"myAnimationViewController"];
 
+  //change the moduleName to the name of your App
   RCTBridge *bridge = [[RCTBridge alloc] initWithDelegate:self launchOptions:launchOptions];
   RCTRootView *rootView = [[RCTRootView alloc] initWithBridge:bridge
                                                moduleName:@"SplashScreenFinal"
@@ -33,9 +34,8 @@
   self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
   self.window.rootViewController = vc;
   [self.window makeKeyAndVisible];
-//  self.window.rootViewController = rootViewController;
 
-  dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(8.5 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+  dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(5 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
     self.window.rootViewController = rootViewController;
   });
 
